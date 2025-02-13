@@ -1,0 +1,127 @@
+/* Overall Page Styling */
+.calamity-page {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+  padding-bottom: 50px;
+}
+/* Hero Section with Video Background */
+.calamity-hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 120px 20px 80px;
+  margin-bottom: 40px;
+  border-radius: 0 0 50px 50px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Fallback background */
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.hero-overlay p {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* Content Container */
+.calamity-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Calamity Section */
+.calamity-section {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.calamity-section:hover {
+  transform: translateY(-5px);
+}
+
+/* Calamity Info */
+.calamity-info {
+  padding: 30px;
+}
+
+.calamity-info h2 {
+  font-size: 2.5rem;
+  color: #1e3c72;
+  margin-bottom: 10px;
+}
+
+.calamity-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Key Points */
+.key-points {
+  margin-bottom: 20px;
+}
+
+.key-points h3 {
+  font-size: 1.5rem;
+  color: #2a5298;
+  margin-bottom: 10px;
+}
+
+.key-points ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.key-points li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* Learn More Button */
+.learn-more {
+  background: #1e3c72;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.learn-more:hover {
+  background: #15315b;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,228 @@
+/* Overall Page Styling */
+.firstaid-page {
+  padding-top: 30px;
+  min-height: 100vh;
+  background: #f9f9f9;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.firstaid-hero {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #fff;
+  padding: 120px 20px 60px;
+  border-radius: 0 0 50px 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.firstaid-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.firstaid-hero p {
+  font-size: 1.25rem;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Content Container */
+.firstaid-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Emergency Procedures Section */
+.emergency-procedures {
+  margin-bottom: 60px;
+}
+
+.emergency-procedures h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Procedures Grid */
+.procedures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+  padding: 10px;
+
+}
+
+/* Procedure Card Styling */
+.procedure-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.procedure-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.procedure-card h3 {
+  color: #0056b3;
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.procedure-card p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Learn More Button */
+.learn-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Basic First Aid Tips Section */
+.firstaid-tips {
+  margin-bottom: 60px;
+
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.firstaid-tips h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.firstaid-tips ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.firstaid-tips li {
+  align-items: left;
+  font-size: 1.1rem;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Additional Resources Section */
+.firstaid-resources {
+  margin-bottom: 60px;
+}
+
+.firstaid-resources h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Resources Grid */
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Resource Card Styling */
+.resource-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.resource-card h3 {
+  color: #0056b3;
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.resource-card p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .firstaid-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .firstaid-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .firstaid-content {
+    padding: 20px;
+  }
+}
+
+/* Add this at the end of your FirstAid.css file */
+
+.hospital-finder-section {
+  margin-top: 60px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the NearestHospital component styles when inside FirstAid page */
+.hospital-finder-section .nearest-hospital {
+  margin: 0;  /* Override the default margin */
+  padding: 0; /* Override the default padding */
+}
+
+.hospital-finder-section .nearest-hospital h2 {
+  color: #007bff; /* Match FirstAid page color scheme */
+}
+
+@media (max-width: 768px) {
+  .hospital-finder-section {
+    margin-top: 40px;
+    padding: 15px;
+  }
+}
