@@ -1,4 +1,4 @@
-# 🚀 Rescue Path - Emergency Assistance Platform
+
 
 ## 📌 Project Overview
 Rescue Path is a web-based emergency assistance platform that helps users find the **nearest hospitals, medical centers, and emergency contacts** based on their location. It also provides **disaster awareness resources** through embedded YouTube videos without redirecting users. The platform aims to enhance **quick decision-making and access to life-saving resources** in critical situations.
@@ -9,6 +9,7 @@ Rescue Path is a web-based emergency assistance platform that helps users find t
 - 🎥 **Disaster Awareness Videos**: Provides YouTube-embedded educational videos for disaster preparedness.
 - 🗺️ **Interactive Map Integration**: Uses Google Maps API for real-time hospital locations and navigation.
 - 📱 **Mobile-Friendly UI**: Fully responsive design for easy access on any device.
+
 
 ## 🏗️ Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
@@ -71,7 +72,7 @@ function getEmergencyContacts(countryCode) {
 ```
 
 ## 🎨 UI Preview
-![Rescue Path UI Preview](https://yourimageurl.com/preview.png)
+<img width="1470" alt="Screenshot 2025-02-13 at 8 56 36 PM" src="https://github.com/user-attachments/assets/bc20900b-6033-496d-af4a-3c7d124aabf7" />
 
 ## 📌 Future Enhancements
 - 🔄 **Real-time Disaster Alerts** using government APIs.
